@@ -1,0 +1,44 @@
+@import 'reset';
+@mixin para_style($size,$color) {
+    font-size:$size;
+    font-weight: 700;
+    color: $color;
+    text-align: center
+}
+.paragraph{
+    @include para_style(50px,green);
+}
+nav ul {
+    list-style: none;
+    li{
+        display: inline-block;
+        margin-right: 5px;
+        a{
+            color: red;
+            display: block;
+        }
+        a:hover{
+            color: green;
+        }
+    }
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+  
+}
+
+.btn-download{
+    @extend .btn; //extend
+    background-color: red;
+    color: rgb(12, 12, 12);
+}
+.btn-learnmore{
+    @extend .btn;
+    background-color: green;
+    border-radius: 30px;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.paragraph {
+  font-size: 50px;
+  font-weight: 700;
+  color: green;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav ul li a {
+  color: red;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+
+.btn, .btn-download, .btn-learnmore {
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+}
+
+.btn-download {
+  background-color: red;
+  color: #0c0c0c;
+}
+
+.btn-learnmore {
+  background-color: green;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=demo.css.map */
